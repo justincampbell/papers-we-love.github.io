@@ -14,23 +14,27 @@
     <link rel="alternate" href="http://papers-we-love.github.io/2015/news/february-meetups/"/>
     <id>http://papers-we-love.github.io/2015/news/february-meetups/</id>
     <published>2015-01-31T19:00:00-05:00</published>
-    <updated>2015-02-01T18:11:24-05:00</updated>
+    <updated>2015-02-07T16:44:28-05:00</updated>
     <author>
       <name>Darren</name>
     </author>
     <content type="html">&lt;p&gt;We have another great line-up of meet-ups scheduled for February across a number of our chapters:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Dallas 2/2&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/219950141/"&gt;Rendering Synthetic Objects into Real Scenes, Paul Debevec, pres. Adam Hill&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dallas 2/2&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Dallas/events/219950141/"&gt;Rendering Synthetic Objects into Real Scenes, Paul Debevec, pres. Adam Hill&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Toronto 2/4&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/219961100/"&gt;Chris Saunders on Teaching Garbage Collectors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Toronto 2/4&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Toronto/events/219961100/"&gt;Chris Saunders on Teaching Garbage Collectors&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;New York 2/5&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/220021234/"&gt;Sam Tobin-Hochstadt on Composable and Compilable Macros&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hyderabad 2/14&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/219756952/"&gt;A Theoretician's­ Guide to the Experimental Analysis of Algorithms&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hyderabad 2/14&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-hyderabad/events/219756952/"&gt;A Theoretician's­ Guide to the Experimental Analysis of Algorithms&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;San Francisco 2/19&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/212147812/"&gt;Caitie McCaffrey on Orleans: A Framework for Cloud Computing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;St. Louis 2/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-in-saint-louis/events/220109629/"&gt;On Certain Formal Properties of Grammars (Chomsky)&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Vienna 2/23&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/220194070/"&gt;Dynamo: Amazon’s Highly Available Key-value Store&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Montreal 2/18&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Montreal/events/220181743/"&gt;Guy Dumais on "Learning to Rank with Multi-Aspect Relevance for Vertical Search"&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;San Francisco 2/19&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-too/events/212147812/"&gt;Caitie McCaffrey on Orleans: A Framework for Cloud Computing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vienna 2/23&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Vienna/events/220194070/"&gt;Dynamo: Amazon’s Highly Available Key-value Store&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;New York 2/23&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/220081725/"&gt;Andrew Turley on Incremental Mature Garbage Collection Using the Train Algorithm&lt;/a&gt; &lt;/p&gt;
 
@@ -44,7 +48,7 @@
     <link rel="alternate" href="http://papers-we-love.github.io/2015/news/january-meetups/"/>
     <id>http://papers-we-love.github.io/2015/news/january-meetups/</id>
     <published>2014-12-31T19:00:00-05:00</published>
-    <updated>2015-02-01T17:51:38-05:00</updated>
+    <updated>2015-02-07T16:42:05-05:00</updated>
     <author>
       <name>Darren</name>
     </author>
@@ -55,6 +59,8 @@
 &lt;p&gt;&lt;strong&gt;Toronto 1/7&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Toronto/events/219223775/"&gt;Dann Toliver on Fast Functional Lists&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Hyderabad 1/11&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-hyderabad/events/219253430/"&gt;A Note on Distributed Computing&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Montreal 1/21&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Montreal/events/219134793/"&gt;Christian Lavoie on Paxos Made Moderately Complex&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;San Francisco 1/22&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-too/events/212582062/"&gt;Alex Rasmussen on Flat Datacenter Storage&lt;/a&gt;&lt;/p&gt;
 
