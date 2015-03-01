@@ -5,16 +5,46 @@
   <id>http://papers-we-love.github.io/</id>
   <link href="http://papers-we-love.github.io/"/>
   <link href="http://papers-we-love.github.io/feed.xml" rel="self"/>
-  <updated>2015-02-27T19:00:00-05:00</updated>
+  <updated>2015-02-28T19:00:00-05:00</updated>
   <author>
     <name>Papers We Love</name>
   </author>
+  <entry>
+    <title>Alex Rasmussen presents Flat Datacenter Storage - San Francisco 1/15</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/san-francisco-1-15-alex-rasmussen-presents-flat-datacenter-storage/"/>
+    <id>http://papers-we-love.github.io/2015/video/san-francisco-1-15-alex-rasmussen-presents-flat-datacenter-storage/</id>
+    <published>2015-02-28T19:00:00-05:00</published>
+    <updated>2015-03-01T10:04:12-05:00</updated>
+    <author>
+      <name>Darren</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/F7heZ9ZBWqI" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="main-talk"&gt;Main Talk:&lt;/h2&gt;
+
+&lt;p&gt;Alex Rasmussen presents the "Flat Datacenter Storage" paper by Edmund B. Nightingale, Jeremy Elson,Jinliang Fan, Owen Hofmann, Jon Howell, and Yutaka Suzue. &lt;a href="http://css.csail.mit.edu/6.824/2014/papers/fds.pdf"&gt;Paper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Alex tells us: " Flat Datacenter Storage (FDS) is, as the intro describes, "a high-performance, fault-tolerant, large-scale, locality-oblivious blob store". It's also a great example of how carefully thought-out co-design of software and hardware for a target workload can yield really impressive performance results, even in the presence of heterogeneity and operating at scale. In my (admittedly biased) opinion, this style of system design doesn't get enough attention outside of academia, and has a lot to teach us about how data-intensive systems should be designed."&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, thoughts, or related information, please visit our &lt;a href="https://github.com/papers-we-love/papers-we-love/issues/198"&gt;&lt;em&gt;github-thread&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Alex Rasmussen (@alexras) got his Ph.D. from UC San Diego in 2013. While at UCSD, he worked on really efficient large-scale data processing and set a few world sorting records, which makes him a hit at parties. He's currently working at Trifacta, helping build the industry's leading big data washing machine.&lt;/p&gt;
+
+&lt;h3 id="mini-talk"&gt;Mini-talk&lt;/h3&gt;
+
+&lt;p&gt;Sargun Dhillon on VL2, a paper by Microsoft Research about computer networking. VL2 leverages several novel schemes in order to build full-bisection, highly-scalable, and decentralized datacenter networks in an economical fashion. These networks continue to support the layer 2 and flat addressing semantics. Many modern networks have been greatly influenced by this design.&lt;/p&gt;
+
+&lt;p&gt;Sargun Dhillon (@sargun) is highly interested in schemes for efficient, flexible computer networks to enable the next generation of applications. He currently works at MustWin. He comes from an operations background, and spends much of his time thinking about how we can make distributed systems, networking, and databases friendlier to run.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>March Meetups</title>
     <link rel="alternate" href="http://papers-we-love.github.io/2015/news/march-meetups/"/>
     <id>http://papers-we-love.github.io/2015/news/march-meetups/</id>
     <published>2015-02-27T19:00:00-05:00</published>
-    <updated>2015-02-28T10:08:48-05:00</updated>
+    <updated>2015-03-01T09:47:46-05:00</updated>
     <author>
       <name>Joshua</name>
     </author>
@@ -47,7 +77,7 @@
     <link rel="alternate" href="http://papers-we-love.github.io/2015/news/february-meetups/"/>
     <id>http://papers-we-love.github.io/2015/news/february-meetups/</id>
     <published>2015-01-31T19:00:00-05:00</published>
-    <updated>2015-02-26T19:43:35-05:00</updated>
+    <updated>2015-03-01T09:47:46-05:00</updated>
     <author>
       <name>Darren</name>
     </author>
@@ -83,7 +113,7 @@
     <link rel="alternate" href="http://papers-we-love.github.io/2015/news/january-meetups/"/>
     <id>http://papers-we-love.github.io/2015/news/january-meetups/</id>
     <published>2014-12-31T19:00:00-05:00</published>
-    <updated>2015-02-26T19:43:16-05:00</updated>
+    <updated>2015-03-01T09:47:46-05:00</updated>
     <author>
       <name>Darren</name>
     </author>
@@ -113,7 +143,7 @@
     <link rel="alternate" href="http://papers-we-love.github.io/2014/news/december-meetups/"/>
     <id>http://papers-we-love.github.io/2014/news/december-meetups/</id>
     <published>2014-11-30T19:00:00-05:00</published>
-    <updated>2015-02-26T19:43:16-05:00</updated>
+    <updated>2015-03-01T09:47:46-05:00</updated>
     <author>
       <name>Zeeshan</name>
     </author>
@@ -150,7 +180,7 @@
     <link rel="alternate" href="http://papers-we-love.github.io/2014/news/november-meetups/"/>
     <id>http://papers-we-love.github.io/2014/news/november-meetups/</id>
     <published>2014-10-31T20:00:00-04:00</published>
-    <updated>2015-02-26T19:43:16-05:00</updated>
+    <updated>2015-03-01T09:47:46-05:00</updated>
     <author>
       <name>Darren</name>
     </author>
