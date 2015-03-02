@@ -5,10 +5,53 @@
   <id>http://papers-we-love.github.io/</id>
   <link href="http://papers-we-love.github.io/"/>
   <link href="http://papers-we-love.github.io/feed.xml" rel="self"/>
-  <updated>2015-02-28T19:00:00-05:00</updated>
+  <updated>2015-03-01T19:00:00-05:00</updated>
   <author>
     <name>Papers We Love</name>
   </author>
+  <entry>
+    <title>Andrew Turley on the Train Algorithm - New York City 2/23</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/andrew-turley-on-the-train-algorithm/"/>
+    <id>http://papers-we-love.github.io/2015/video/andrew-turley-on-the-train-algorithm/</id>
+    <published>2015-03-01T19:00:00-05:00</published>
+    <updated>2015-03-01T14:53:41-05:00</updated>
+    <author>
+      <name>Darren</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/kpW4lCwQWHc" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Andrew Turley&lt;/strong&gt; presented &lt;a href="https://github.com/papers-we-love/papers-we-love/blob/master/garbage_collection/incremental_mature_garbage_collection_using_the_train_algorithm.pdf?raw=true"&gt;&lt;em&gt;Incremental Mature Garbage Collection Using the Train Algorithm&lt;/em&gt;&lt;/a&gt; by Jacob Seligmann &amp;amp; Steffen Grarup at the February 23, 2015 Papers We Love Meetup held at the Tumblr offices.&lt;/p&gt;
+
+&lt;p&gt;The Train Algorithm is an incremental generational garbage collector that was designed to deal with the long and unpredictable pause times caused by other algorithms. It does this by grouping objects together on "cars" in "trains". The algorithm provides a strategy for moving objects from the younger generation into different cars, moving objects from one car to another, and collecting cars and trains. It was first described by Hudson and Moss in the paper "Incremental
+Collection of Mature Objects".&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Andrew Turley&lt;/strong&gt; (&lt;a href="http://twitter.com/casio_juarez"&gt;@casio_juarez&lt;/a&gt;) is a lead software engineer on the platform team at &lt;a href="http://dev.theladders.com"&gt;TheLadders&lt;/a&gt;, where he builds infrastructure by linking Storm topologies together using RabbitMQ. He has also had numerous professional brushes with lower levels of the software stack, including building embedded systems for processing audio at DigiDesign, and helping to improve the performance of iOS at
+Apple.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
+&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank our platinum sponsor &lt;a href="http://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Additional resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[mcca60] John McCarthy. Recursive functions of symbolic expressions and their computation by machine, Part I. Communications of the ACM, 3(4):184-195, April 1960.&lt;/li&gt;
+  &lt;li&gt;[bish77] Peter B. Bishop. Computer Systems with a Very Large Address Space and Garbage Collection. PhD thesis, MIT Laboratory for Computer Science, May 1977. Technical report MIT/LCS/TR-178.&lt;/li&gt;
+  &lt;li&gt;[bake78] Henry G. Baker. List processing in real-time on a serial computer. Communications of the ACM, 21(4):280-294, 1978. Also AI Laboratory Working Paper 139, 1977.&lt;/li&gt;
+  &lt;li&gt;[lieb83] Henry Lieberman and Carl E. Hewitt. A real-time garbage collector based on the lifetimes of objects. Communications of the ACM, 26(6):419-429, June 1983. Also report TM-184, Laboratory for Computer Science, MIT, Cambridge, MA, July 1980 and AI Lab Memo 569, 1981.&lt;/li&gt;
+  &lt;li&gt;[moon84] David A. Moon. Garbage collection in a large LISP system. In Steele [LFP84], 1984, pages 235-245&lt;/li&gt;
+  &lt;li&gt;[huds92] Richard L. Hudson and J. Eliot B. Moss. Incremental collection of mature objects. In Bekkers and Cohen [IWMM92], 1992, pages 388-403&lt;/li&gt;
+  &lt;li&gt;[seli95] Jacob Seligmann and Steffen Grarup. Incremental mature garbage collection using the train algorithm. In Nierstrasz [ECOOP95], 1995, pages 235-252.&lt;/li&gt;
+  &lt;li&gt;[gart05a] Alex Garthwaite. Making the Trains Run On Time. PhD thesis, University of Pennsylvania, 2005.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Alex Rasmussen presents Flat Datacenter Storage - San Francisco 1/15</title>
     <link rel="alternate" href="http://papers-we-love.github.io/2015/video/san-francisco-1-15-alex-rasmussen-presents-flat-datacenter-storage/"/>
@@ -173,36 +216,6 @@
 &lt;img class="left no-shadow" alt="TheLaddersDev" style="width: 120px" src="/images/ladders_logo.jpg" /&gt; The &lt;strong&gt;New York chapter&lt;/strong&gt; would like to give special thanks to &lt;a href="http://kisspatent.com/"&gt;KISSPatent&lt;/a&gt; and &lt;a href="http://dev.theladders.com/"&gt;The Ladders Engineering Team&lt;/a&gt; for sponsoring the food and refreshments for the December meetup.&lt;/p&gt;
 
 &lt;p&gt;GitHub: &lt;a href="https://github.com/TheLadders"&gt;TheLadders&lt;/a&gt; / Twitter: &lt;a href="https://twitter.com/kisspatent"&gt;@KISSPatent&lt;/a&gt;, &lt;a href="https://twitter.com/TheLaddersDev"&gt;@TheLaddersDev&lt;/a&gt;&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>November Meetups</title>
-    <link rel="alternate" href="http://papers-we-love.github.io/2014/news/november-meetups/"/>
-    <id>http://papers-we-love.github.io/2014/news/november-meetups/</id>
-    <published>2014-10-31T20:00:00-04:00</published>
-    <updated>2015-03-01T09:47:46-05:00</updated>
-    <author>
-      <name>Darren</name>
-    </author>
-    <content type="html">&lt;p&gt;We have another great line-up of meet-ups scheduled for November across a number of our chapters:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;San Francisco 11/13&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-too/events/197577972/"&gt;Leif Walsh on Level Ancestor Simplified&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Chicago 11/17&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Chicago/events/214596222/"&gt;Kevin Buchanan on Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;New York 11/18&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/214400572/"&gt;Jean Yang on An Axiomatic Basis for Computer Programming&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Washington DC 11/20&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-DC/events/212419432/"&gt;David Nolen on Worlds: Controlling the Scope of Side Effects&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Montreal 11/20&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Montreal/events/217560332/"&gt;Julian Squires on Procedural Modeling of Buildings&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Singapore 11/24&lt;/strong&gt;: &lt;a href="https://www.facebook.com/events/1487597988178170/"&gt;Security Applications of Formal Language Theory&lt;/a&gt; &lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;img class="left no-shadow" alt="TheLaddersDev" style="width: 120px" src="/images/ladders_logo.jpg" /&gt; The &lt;strong&gt;New York chapter&lt;/strong&gt; would like to give special thanks to &lt;a href="http://dev.theladders.com/"&gt;The Ladders Engineering Team&lt;/a&gt; for sponsoring the food and refreshments for the November meetup.&lt;/p&gt;
-
-&lt;p&gt;GitHub: &lt;a href="https://github.com/TheLadders"&gt;TheLadders&lt;/a&gt; / Twitter: &lt;a href="https://twitter.com/TheLaddersDev"&gt;@TheLaddersDev&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 </feed>
