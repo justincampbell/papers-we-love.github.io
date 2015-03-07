@@ -85,19 +85,23 @@ Apple.&lt;/p&gt;
     <link rel="alternate" href="http://papers-we-love.github.io/2015/news/march-meetups/"/>
     <id>http://papers-we-love.github.io/2015/news/march-meetups/</id>
     <published>2015-02-28T19:00:00-05:00</published>
-    <updated>2015-03-03T20:20:09-05:00</updated>
+    <updated>2015-03-07T10:34:53-05:00</updated>
     <author>
       <name>Joshua</name>
     </author>
     <content type="html">&lt;p&gt;We have another great line-up of meet-ups scheduled for March across a number of our chapters:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Dallas 3/2&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Dallas/events/220708429/"&gt;Complex Systems Theory  Stephen Wolfram, presented by Nik Clarkson&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Addison 3/2&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Dallas/events/220708429/"&gt;Complex Systems Theory - Stephen Wolfram, presented by Nik Clarkson&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Amsterdam 3/4&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-amsterdam/events/219479079/"&gt;Time, Clocks, and the Ordering of Events in a Distributed System&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Toronto 3/4&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Toronto/events/220756628/"&gt;Colin Lupton on Quantum Lambda Calculus&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Washington 3/5&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-DC/events/220155410/"&gt;John Feminella on "Coresets and their applications"&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Seattle 3/10&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Seattle/events/220567705/"&gt;: Dynamo: Amazon’s Highly Available Keyvalue Store&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bangalore 3/14&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-we-love-Bangalore/events/220883207/"&gt;Hyperloglog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New York 3/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/220902753/"&gt;John Myles White on Fundamental Concepts in Programming Languages&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Saint Louis 3/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-in-saint-louis/events/220109644/"&gt;Out of the Tar Pit (Mosley, Marks)&lt;/a&gt;&lt;/p&gt;
 
@@ -105,14 +109,14 @@ Apple.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Vienna 3/23&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Vienna/events/220729137/"&gt;Why Functional Programming Matters&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Montréal 3/25&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Montreal/events/220974427/"&gt;Structural Zeros versus Sampling Zeros by Mohri and Roark&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;San Francisco 3/26&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-too/events/212147942/"&gt;Armon Dadgar on Bloom Filters and HyperLogLog&lt;/a&gt;
  &lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to give special thanks to our Platinum sponsor &lt;strong&gt;&lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;NYC would like to give additional thanks to &lt;a href="http://dev.theladders.com"&gt;The Ladders&lt;/a&gt; and &lt;a href="http://engineering.tumblr.com"&gt;tumblr&lt;/a&gt; for providing food/refreshments and facilities for the March meetup.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to give special thanks to our Platinum sponsor &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt;. We would like to give additional thanks to &lt;a href="http://dev.theladders.com"&gt;The Ladders&lt;/a&gt;, &lt;a href="http://engineering.tumblr.com"&gt;tumblr&lt;/a&gt; and &lt;a href="http://lispnyc.org/"&gt;LispNYC&lt;/a&gt; for providing food/refreshments and facilities for the February meetup.&lt;/p&gt;
 </content>
   </entry>
   <entry>
