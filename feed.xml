@@ -5,10 +5,41 @@
   <id>http://papers-we-love.github.io/</id>
   <link href="http://papers-we-love.github.io/"/>
   <link href="http://papers-we-love.github.io/feed.xml" rel="self"/>
-  <updated>2015-03-15T20:00:00-04:00</updated>
+  <updated>2015-03-24T20:00:00-04:00</updated>
   <author>
     <name>Papers We Love</name>
   </author>
+  <entry>
+    <title>April Meetups</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/news/april-meetups/"/>
+    <id>http://papers-we-love.github.io/2015/news/april-meetups/</id>
+    <published>2015-03-24T20:00:00-04:00</published>
+    <updated>2015-03-25T19:36:22-04:00</updated>
+    <author>
+      <name>Joshua</name>
+    </author>
+    <content type="html">&lt;p&gt;We have another great line-up of meet-ups scheduled for April across a number of our chapters:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Toronto 4/1&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Toronto/events/221232820/"&gt;Max Veytsman on The First Level of Super Mario Bros.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;New York 4/1&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/221194444/"&gt;Neha Narula on The Scalable Commutativity Rule&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hamburg 4/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Hamburg/events/220890204/"&gt;The Essence of the Iterator pattern&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Seattle 4/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Seattle/events/221174354/"&gt;: Brandon Bloom on Programming with Algebraic Effects and Handlers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vienna 4/20&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Vienna/events/221356300/"&gt;What do you want to discuss?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Saint Louis 4/20&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-in-saint-louis/events/220109658/"&gt;Paper is TBA&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;San Francisco 4/30&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-too/events/212148242/"&gt;Jordan West on Logical Time&lt;/a&gt;
+ &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to give special thanks to our Platinum sponsor &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt;. We would like to give additional thanks to &lt;a href="http://dev.theladders.com"&gt;The Ladders&lt;/a&gt;, &lt;a href="http://engineering.tumblr.com"&gt;tumblr&lt;/a&gt; and &lt;a href="http://dropbox.com"&gt;Dropbox&lt;/a&gt; for providing food/refreshments and facilities for the April meetup.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>John Myles White on Fundamental Concepts in Programming Languages</title>
     <link rel="alternate" href="http://papers-we-love.github.io/2015/video/john-myles-white-on-fundamental-concepts-in-programming-languages/"/>
@@ -188,48 +219,6 @@ Apple.&lt;/p&gt;
 &lt;p&gt;Sargun Dhillon on VL2, a paper by Microsoft Research about computer networking. VL2 leverages several novel schemes in order to build full-bisection, highly-scalable, and decentralized datacenter networks in an economical fashion. These networks continue to support the layer 2 and flat addressing semantics. Many modern networks have been greatly influenced by this design.&lt;/p&gt;
 
 &lt;p&gt;Sargun Dhillon (@sargun) is highly interested in schemes for efficient, flexible computer networks to enable the next generation of applications. He currently works at MustWin. He comes from an operations background, and spends much of his time thinking about how we can make distributed systems, networking, and databases friendlier to run.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Sam Tobin-Hochstadt on Composable and Compilable Macros</title>
-    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/sam-tobin-hochstadt-composable-compilable-macros/"/>
-    <id>http://papers-we-love.github.io/2015/video/sam-tobin-hochstadt-composable-compilable-macros/</id>
-    <published>2015-02-04T19:00:00-05:00</published>
-    <updated>2015-03-21T21:40:14-04:00</updated>
-    <author>
-      <name>Darren</name>
-    </author>
-    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/pK2E63mhRxI" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.cs.utah.edu/plt/publications/macromod.pdf"&gt;&lt;strong&gt;Composable and Compilable Macros&lt;/strong&gt;&lt;/a&gt; introduces the Racket module system, which addresses the following problem: When you have macros that run programs at compile-time, how does this interact with separate compilation and ahead-of-time compilation. The paper introduces "phases", which enable Racket to behave the same regardless of when and how you compile your program. It also introduces the idea of writing different modules in different languages, which is now used for systems like Typed Racket.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://bit.ly/1KNwpjC"&gt;Slides&lt;/a&gt; &lt;a href="https://www.mixcloud.com/paperswelove/sam-tobin-hochstadt-on-composable-and-compilable-macros/"&gt;Audio&lt;/a&gt; &lt;a href="https://www.youtube.com/redirect?q=http%3A%2F%2Fwww.meetup.com%2Fpapers-we-love%2Fevents%2F220021234%2F&amp;amp;redir_token=vcCgfsZQJCCQgFtPF6xQWDsM67x8MTQyNzA2NDQ4NUAxNDI2OTc4MDg1"&gt;Meetup&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Sam Tobin-Hochstadt (&lt;a href="http://twitter.com/samth"&gt;@samth&lt;/a&gt;) is an Assistant Professor in the School of Informatics and Computing at Indiana University. He has worked on dynamic languages, type systems, module systems, and metaprogramming, including creating the Typed Racket system and popularizing the phrase “scripts to programs.” He is a member of the ECMA TC39 working group responsible for standardizing JavaScript, where he co-designed the module system for ES6, the next version of JavaScript. He received his PhD in 2010 from Northeastern University under Matthias Felleisen.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p style="display: flex; flex-direction: row; justify-content: center; align-items: center;"&gt;
-&lt;a href="https://www.twosigma.com/"&gt;&lt;img src="/images/TwoSigma_RGB.jpg" alt="TwoSigma" title="TwoSigma - Platinum Sponsor of Papers We Love NYC" style="width: 200px; margin: 0 1em 0 0;" /&gt;&lt;/a&gt; &lt;span style="flex: 1;"&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to thank our platinum sponsor &lt;a href="http://www.twosigma.com"&gt;TwoSigma&lt;/a&gt; for helping to make this meetup possible.&lt;/span&gt;
-&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;Additional resources&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Syntactic Abstraction in Scheme&lt;/em&gt;, Dybvig Hieb &amp;amp; Bruggeman, Lisp and Symbolic Computation 1993&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Macros that Work Together&lt;/em&gt;, Flatt, Findler, Culpepper, &amp;amp; Darais, JFP 2012&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Submodules in Racket&lt;/em&gt;, Flatt GPCE 2013&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Implicit phasing for R6RS libraries&lt;/em&gt;, Ghuloum &amp;amp; Dybvig, ICFP 2007&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Extending the scope of syntactic abstraction&lt;/em&gt;, Waddell &amp;amp; Dybvig, POPL 1999&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>
