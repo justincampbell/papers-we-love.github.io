@@ -5,16 +5,81 @@
   <id>http://papers-we-love.github.io/</id>
   <link href="http://papers-we-love.github.io/"/>
   <link href="http://papers-we-love.github.io/feed.xml" rel="self"/>
-  <updated>2015-03-24T20:00:00-04:00</updated>
+  <updated>2015-03-25T20:00:00-04:00</updated>
   <author>
     <name>Papers We Love</name>
   </author>
+  <entry>
+    <title>Armon Dadgar on Bloom Filters and HyperLogLog</title>
+    <link rel="alternate" href="http://papers-we-love.github.io/2015/video/armon-dadgar-on-bloom-filters-and-hyperloglog/"/>
+    <id>http://papers-we-love.github.io/2015/video/armon-dadgar-on-bloom-filters-and-hyperloglog/</id>
+    <published>2015-03-25T20:00:00-04:00</published>
+    <updated>2015-04-01T07:43:43-04:00</updated>
+    <author>
+      <name>Darren</name>
+    </author>
+    <content type="html">&lt;iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/T3Bt9Tn6P5c" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id="san-francisco---march-26-2015"&gt;San Francisco - March 26, 2015&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Armon Dadgar&lt;/strong&gt; from HashiCorp takes us on a deep dive of Bloom filters and HyperLogLog.&lt;/p&gt;
+
+&lt;p&gt;Bloom filter papers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://www.cs.upc.edu/~diaz/p422-bloom.pdf"&gt;http://www.cs.upc.edu/~diaz/p422-bloom.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://gsd.di.uminho.pt/members/cbm/ps/dbloom.pdf"&gt;http://gsd.di.uminho.pt/members/cbm/ps/dbloom.pdf&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.eecs.harvard.edu/%7Ekirsch/pubs/bbbf/esa06.pdf"&gt;http://www.eecs.harvard.edu/%7Ekirsch/pubs/bbbf/esa06.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Armon will mostly touch on the first  paper which is the introduction of the technique. The other two are optimizations that he'll discuss briefly but there's no need to dwell on them.&lt;/p&gt;
+
+&lt;p&gt;HyperLogLog papers:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9475"&gt;http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9475&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://research.google.com/pubs/pub40671.html"&gt;http://research.google.com/pubs/pub40671.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Again, the first one introduces them, and the second one is some optimizations from Google. He won’t spend much time on the second one either. All of these papers are implemented as part of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://github.com/armon/bloomd"&gt;https://github.com/armon/bloomd&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/armon/hlld"&gt;https://github.com/armon/hlld&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These links may give some context to the work and show the real-world applicability.&lt;/p&gt;
+
+&lt;p&gt;From Armon on why he loves these papers: "Bloom Filters and HyperLogLog are incredible for their simplicity and the seemingly impossible behavior they have. Both of them are part of the family of “sketching” data structures, which allow for a controllable error that results in a tremendous savings of memory compared to the equivalent exact implementations.&lt;/p&gt;
+
+&lt;p&gt;More than just being elegant, these two data structures enable some very cool real-world use cases. In the online advertising company I previously worked for, we used them to track thousands of metrics across billions of data points comfortably in memory on a single machine."&lt;/p&gt;
+
+&lt;p&gt;Armon's Bio
+Armon (@armon) has a passion for distributed systems and their application to real world problems. He is currently the CTO of HashiCorp, where he brings distributed systems into the world of DevOps tooling. He has worked on Terraform, Consul, and Serf at HashiCorp, and maintains the Statsite and Bloomd OSS projects as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://speakerdeck.com/paperswelove/pwlsf-number-13-equals-armon-dadgar-on-bloom-filters-and-hyperloglog"&gt;Download slides for Armon's talk.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id="mini-talks"&gt;Mini Talks&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Matt Adereth&lt;/strong&gt; on &lt;a href="http://adereth.github.io/oneoff/Mode%20Trees.pdf"&gt;&lt;em&gt;The Mode Tree: A Tool for Visualization of Nonparametric Density Features&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;From Matt: "We often look at summaries of univariate data using basic descriptive statistics like mean and standard deviation and visualizations like histograms and box plots.  The Mode Tree is a powerful alternative visualization that reveals important details about our distributions that none of the standard approaches can show.&lt;/p&gt;
+
+&lt;p&gt;I particularly like this paper because it was really the by-product of some interesting algorithmic work in Computational Statistics.  A lot of the techniques in this area are pretty math heavy and inaccessible, so I appreciated that they dedicated a paper to making a visualization that helps explain the inner workings.  As a bonus, the visualization stands on its own as a useful tool."&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://adereth.github.io/oneoff/pwl-draft/scratch.html"&gt;Slides for Matt's talk are available.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Matt Adereth (@adereth) builds tools and infrastructure for quantitative analysis at Two Sigma.  He previously worked at Microsoft on Visio, focusing on ways to connect data to shapes.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>April Meetups</title>
     <link rel="alternate" href="http://papers-we-love.github.io/2015/news/april-meetups/"/>
     <id>http://papers-we-love.github.io/2015/news/april-meetups/</id>
     <published>2015-03-24T20:00:00-04:00</published>
-    <updated>2015-03-25T19:36:22-04:00</updated>
+    <updated>2015-04-01T07:31:29-04:00</updated>
     <author>
       <name>Joshua</name>
     </author>
@@ -24,16 +89,18 @@
 
 &lt;p&gt;&lt;strong&gt;New York 4/1&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/221194444/"&gt;Neha Narula on The Scalable Commutativity Rule&lt;/a&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;strong&gt;Addison 4/6&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Dallas/events/221461827/"&gt;Scalable Causal Consistency, and Boosting of Learning Algorithms&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;London 4/15&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-London/events/221535320/"&gt;Andy Bennett on "Scalable Atomic Visibility with RAMP Transactions"&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;Hamburg 4/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Hamburg/events/220890204/"&gt;The Essence of the Iterator pattern&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Seattle 4/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Seattle/events/221174354/"&gt;: Brandon Bloom on Programming with Algebraic Effects and Handlers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Seattle 4/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Seattle/events/221174354/"&gt;Brandon Bloom on Programming with Algebraic Effects and Handlers&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Vienna 4/20&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Vienna/events/221356300/"&gt;What do you want to discuss?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Saint Louis 4/20&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-in-saint-louis/events/220109658/"&gt;Paper is TBA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Vienna 4/20&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Vienna/events/221356300/"&gt;Google Spanner&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;San Francisco 4/30&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-too/events/212148242/"&gt;Jordan West on Logical Time&lt;/a&gt;
- &lt;/p&gt;
+&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -45,7 +112,7 @@
     <link rel="alternate" href="http://papers-we-love.github.io/2015/video/john-myles-white-on-fundamental-concepts-in-programming-languages/"/>
     <id>http://papers-we-love.github.io/2015/video/john-myles-white-on-fundamental-concepts-in-programming-languages/</id>
     <published>2015-03-15T20:00:00-04:00</published>
-    <updated>2015-03-23T19:56:00-04:00</updated>
+    <updated>2015-04-01T07:37:36-04:00</updated>
     <author>
       <name>Darren</name>
     </author>
@@ -150,45 +217,6 @@ Apple.&lt;/p&gt;
   &lt;li&gt;[seli95] Jacob Seligmann and Steffen Grarup. Incremental mature garbage collection using the train algorithm. In Nierstrasz [ECOOP95], 1995, pages 235-252.&lt;/li&gt;
   &lt;li&gt;[gart05a] Alex Garthwaite. Making the Trains Run On Time. PhD thesis, University of Pennsylvania, 2005.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>March Meetups</title>
-    <link rel="alternate" href="http://papers-we-love.github.io/2015/news/march-meetups/"/>
-    <id>http://papers-we-love.github.io/2015/news/march-meetups/</id>
-    <published>2015-02-28T19:00:00-05:00</published>
-    <updated>2015-03-16T07:14:00-04:00</updated>
-    <author>
-      <name>Joshua</name>
-    </author>
-    <content type="html">&lt;p&gt;We have another great line-up of meet-ups scheduled for March across a number of our chapters:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Addison 3/2&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Dallas/events/220708429/"&gt;Complex Systems Theory  Stephen Wolfram, presented by Nik Clarkson&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Amsterdam 3/4&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-amsterdam/events/219479079/"&gt;Time, Clocks, and the Ordering of Events in a Distributed System&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Toronto 3/4&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Toronto/events/220756628/"&gt;Colin Lupton on Quantum Lambda Calculus&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Seattle 3/10&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Seattle/events/220567705/"&gt;: Dynamo: Amazon’s Highly Available Keyvalue Store&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bangalore 3/14&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-we-love-Bangalore/events/220883207/"&gt;Hyperloglog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;New York 3/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love/events/220902753/"&gt;John Myles White on Fundamental Concepts in Programming Languages&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Saint Louis 3/16&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-in-saint-louis/events/220109644/"&gt;Out of the Tar Pit (Mosley, Marks)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;London 3/18&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-London/events/220691457/"&gt;Adam Johnson on How Complex Systems Fail&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Vienna 3/23&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Vienna/events/220729137/"&gt;Why Functional Programming Matters&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Montréal 3/25&lt;/strong&gt;: &lt;a href="http://www.meetup.com/Papers-We-Love-Montreal/events/220974427/"&gt;Structural Zeros versus Sampling Zeros by Mohri and Roark&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;San Francisco 3/26&lt;/strong&gt;: &lt;a href="http://www.meetup.com/papers-we-love-too/events/212147942/"&gt;Armon Dadgar on Bloom Filters and HyperLogLog&lt;/a&gt;
- &lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The &lt;strong&gt;New York Chapter&lt;/strong&gt; would like to give special thanks to our Platinum sponsor &lt;a href="https://www.twosigma.com"&gt;TwoSigma&lt;/a&gt;. We would like to give additional thanks to &lt;a href="http://dev.theladders.com"&gt;The Ladders&lt;/a&gt;, and &lt;a href="http://engineering.tumblr.com"&gt;tumblr&lt;/a&gt; for providing food/refreshments and facilities for the March meetup.&lt;/p&gt;
 </content>
   </entry>
   <entry>
